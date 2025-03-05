@@ -148,6 +148,7 @@ body{
 .item-produto{
     width: 350px;
     border: 1px solid rgb(0, 0, 0, 13%);
+    margin-bottom: 30px;
 }
 .titulo-produto{
     margin-top: 13px;
@@ -189,7 +190,7 @@ body{
     color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
-    text-align: center;
+
 }
 .titulo-facilidades{
     font-size: 32px;
@@ -200,10 +201,10 @@ body{
     font-family: 'Inter';
 }
 .icones{
+    display: flex;
     width: 976px;
     margin-left: auto;
-    margin-left: auto;
-    display: flex;
+    margin-right: auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -211,5 +212,78 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 296px;
+    width: 304px;
+}
+.info-icone{
+    margin-left: 24px;
+}
+.titulo-icone{
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #DAFF01;
+    line-height: 23px;
+    font-size: 16px;
+}
+.texto-icone{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+}
+.promocoes{
+    width: 729px;
+    border: 2px solid;
+    margin: 65px auto;
+    padding: 40px 16px;
+}
+.titulo-promocoes{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.formulario-promocoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campo-promocoes{
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    border: 1px solid;
+    border-radius: 0;
+    width: 456px;
+}
+.botao-promocoes{
+    border: 1px solid #9353FF;
+    border-radius: 0;
+    background-color: #9353FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 84px;
+    text-align: center;
+}
+.rodape{
+    background-color: #000;
+    height: 54px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.texto-rodape{
+    font-weight: 400;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+.texto-rodape strong{
+    font-weight: bold;
+    color: fuchsia;
 }
